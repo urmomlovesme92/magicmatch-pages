@@ -1,19 +1,32 @@
-# MagicMatch Dating Public Pages
+# MagicMatch Store Docs
 
-Static GitHub Pages site for MagicMatch Dating store review links.
+These files are the public-facing store documents and internal metadata drafts needed to support app-store submission.
 
-This repository should stay public and contain only public legal, safety, support, and account deletion pages. Do not add app source code, API keys, service keys, database URLs, build files, or private launch notes here.
+## Public pages to host
 
-Suggested GitHub Pages source:
+- `privacy-policy.html`
+- `terms-of-service.html`
+- `support.html`
+- `account-deletion.html`
+- `privacy-choices.html`
 
-- Branch: `main`
-- Folder: `/ (root)`
+## Internal submission docs
 
-Suggested store URLs after publishing:
+- `STORE_METADATA.md`
+- `GOOGLE_PLAY_DATA_SAFETY.md`
 
-- Privacy Policy: `https://urmomlovesme92.github.io/magicmatch-pages/privacy.html`
-- Terms of Use: `https://urmomlovesme92.github.io/magicmatch-pages/terms.html`
-- Support: `https://urmomlovesme92.github.io/magicmatch-pages/support.html`
-- Account Deletion: `https://urmomlovesme92.github.io/magicmatch-pages/delete-account.html`
-- Safety: `https://urmomlovesme92.github.io/magicmatch-pages/safety.html`
-- Verification: `https://urmomlovesme92.github.io/magicmatch-pages/verification.html`
+## Important hosting note
+
+Google Play says privacy policies must be on an active, publicly accessible, non-geofenced, non-editable URL and not as a PDF. Apple requires a privacy policy URL for all apps and allows an optional privacy choices URL. That means these HTML files should be hosted as normal web pages over HTTPS.
+
+## Current public values
+
+- Support email: `akhicks92@gmail.com`
+- GitHub Pages source: `store-docs/`
+- GitHub Pages workflow: `.github/workflows/pages.yml`
+
+## Confirm before publishing
+
+- `Anthony Hicks Ecosystem` if your public developer entity differs
+- any legal boilerplate your attorney wants adjusted
+
